@@ -1,0 +1,26 @@
+{
+  "name": "app/tools",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sergey Bakanov",
+      "email": "sergeybknv@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Xamin\\App\\": "src/",
+      "Xamin\\Framework\\": "config/"
+    }
+  },
+  "require": {
+    "symfony/http-kernel": "^4.4",
+    "symfony/http-foundation": "^4.4",
+    "symfony/routing": "^4.4",
+    "symfony/dependency-injection": "^4.4",
+    "guzzlehttp/guzzle": "^6.5",
+    "doctrine/orm": "^2.7",
+    "ext-json": "*"
+  }
+}
